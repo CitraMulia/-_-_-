@@ -365,7 +365,7 @@ function findJsVariableOffset(name,exploit_data,base,size)
 
 //####################################################################################################################################################################
 function ps3chk(){
-	var fwCompat = ["4.87"];
+	var fwCompat = ["4.88"];
 	var ua = navigator.userAgent;
 	var uaStringCheck = ua.substring(ua.indexOf("5.0 (") + 5, ua.indexOf(") Apple") - 7);
 	var fwVersion = ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple"));
